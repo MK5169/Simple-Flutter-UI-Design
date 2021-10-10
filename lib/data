@@ -1,0 +1,25 @@
+class ShowData {
+  ShowData(
+    this.firstName,
+    this.username,
+    
+    this.email,  
+  );
+
+  String username;
+  String firstName;
+  String email;
+
+  factory ShowData.from(Map<String, dynamic> jon) => ShowData(
+        jon["username"].toString(), //jhgjhgh
+        jon["firstName"].toString(),
+        jon["email"].toString(), //3mail
+         //kgkugg
+      );
+
+  // Map<String, dynamic> toJson() => {
+  //       "firstName": firstName,
+  //       "email": email,
+  //       "username": username,
+  //     };
+}
