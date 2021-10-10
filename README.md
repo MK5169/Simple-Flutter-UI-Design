@@ -1,6 +1,7 @@
 # cryptoworld
 
 A new Flutter project.
+Sample UI design in flutter.
 
 ## Getting Started
 
